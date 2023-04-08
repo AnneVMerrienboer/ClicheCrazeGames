@@ -2,6 +2,7 @@
 /* CSS Document */
   @import url("https://use.typekit.net/ops7twc.css");
 
+
 .banner {
 	background-image: url('../images/background.jpg');
 	background-repeat: no-repeat;
@@ -121,5 +122,17 @@ button:hover {
 	font-style: normal;
 }
 
-/*--footer--*/
+/*--cards--*/
 
+.card h3 {
+	font-family: chaloops, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	text-align: center;
+}
+
+.card p {
+	font-family: bilo, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
