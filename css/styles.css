@@ -2,12 +2,19 @@
 /* CSS Document */
   @import url("https://use.typekit.net/ops7twc.css");
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: bilo, sans-serif;
+}
 
-.banner {
-	background-image: url('../images/background.jpg');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	backgrond-s: cover;
+.fill-screen {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	background-size: cover;
+	margin: 0;
 }
 
 /*--navbar--*/
@@ -16,7 +23,7 @@
 	background: #2DBBAA;
 	width: 100%;
 	margin: auto;
-	padding: 10px 0;
+	padding: 5px 0;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -58,23 +65,40 @@
 	width: 100%;
 }
 
+/*--home--*/
 
-.content {
-	width: 100%;
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50);
+section .home {
+	padding: 100px 200px;
 	text-align: center;
-	color: #F3EEEA;
 }
 
-.content h1 {
+.home {
+	z-index: 888;
+	color: #F3EEEA;
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: rgba(0,0,0,0.5);
+}
+.home .fill-screen-text {
+	position: absolute;
+	z-index: 888;
+	color: #F3EEEA;
+	margin-top: 50px;
+	text-align: left;
+	margin: 0px 200px
+}
+
+.home .fill-screen-text h1 {
 	font-family: chaloops, sans-serif;
 	font-weight: 700;
 	font-style: normal;
 }
 
-.content p {
+.home .fill-screen-text p {
 	font-family: jaf-domus-titling-web, sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -116,23 +140,94 @@ button:hover {
 	border: none;
 }
 
-.content button{
+.fill-screen-text button{
 	font-family: bilo, sans-serif;
 	font-weight: 500;
 	font-style: normal;
 }
 
-/*--cards--*/
+/*--media-icons--*/
 
-.card h3 {
+.media-icons {
+	z-index: 888;
+	position: absolute;
+	right: 5%;
+	bottom: 40%;
+	display: flex;
+	flex-direction: column;
+	transition: 0.5 ease;
+}
+
+.media-icons a {
+	font-size: 1.6em;
+	transition: 0.5s;
+}
+
+.media-icons a:hover {
+	transform: scale(1.5);
+}
+
+/*--shop--*/
+
+#product-details {
+	display: flex;
+	margin-top: 20px;
+}
+
+#product-details .product-image {
+	width: 40%;
+	margin-right: 50px;
+	margin-left: 100px;
+}
+
+.small-img-group {
+	display: flex;
+	justify-content: space-between;
+}
+
+.small-img-col {
+	flex-basis: 24%;
+	cursor: pointer;
+}
+
+#product-details .product-details {
+	width: 50%;
+	padding-top: 30px;
+}
+
+#product-details .product-details h4 {
+	font-family: jaf-domus-titling-web, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	padding: 40px 0 20px 0;
+	font-size: 18px;
+}
+
+#product-details .product-details h2 {
 	font-family: chaloops, sans-serif;
 	font-weight: 700;
 	font-style: normal;
-	text-align: center;
+	font-size: 35px;
 }
 
-.card p {
+#product-details .product-details h6 {
 	font-family: bilo, sans-serif;
 	font-weight: 500;
 	font-style: normal;
+	padding: 40px 0 20px 0;
+	line-height: 25px;
+}
+
+#product-details .product-details input {
+	width: 100px;
+	height: 58px;
+	border: 2px solid #F7B2CD;
+	border-radius: 25px;
+	padding-left: 10px;
+	font-family: bilo, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	color: #F3EEEA;
+	font-size: 16px;
+	margin-right: 10px;
 }
