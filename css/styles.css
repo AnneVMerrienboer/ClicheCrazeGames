@@ -81,7 +81,6 @@ section .home {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	background-color: rgba(0,0,0,0.5);
 }
 .home .fill-screen-text {
 	position: absolute;
@@ -216,6 +215,7 @@ button:hover {
 	font-style: normal;
 	padding: 40px 0 20px 0;
 	line-height: 25px;
+	width: 500px;
 }
 
 #product-details .product-details input {
