@@ -238,7 +238,7 @@ section .home {
 /*--carousel--*/
 
 .carousel-slides {
-	width: 100%;
+	width: 100vw;
 	position: relative;
 	margin: 0;
 }
