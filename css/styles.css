@@ -237,14 +237,51 @@ section .home {
 
 /*--carousel--*/
 
-.carousel-slides {
-	width: 100vw;
-	position: relative;
-	margin: 0;
+.carousel-item h3 {
+	font-family: chaloops, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #F3EEEA;
 }
 
-.carousel-indicators button{
-	font-family: bilo, sans-serif;
-	font-weight: 500;
+.carousel-item p {
+	font-family: jaf-domus-titling-web, sans-serif;
+	font-weight: 400;
 	font-style: normal;
+	text-align: center;
+	color: #F3EEEA;
+}
+
+.carousel .btn{
+	width: 300px;
+	padding: 15px 0;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 25px;
+	border: 2px solid #F7B2CD;
+	background: transparent;
+	color: #F3EEEA;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+
+.carousel span {
+	background: #F7B2CD;
+	height: 100%;
+	width: 0;
+	border-radius: 25px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	transition: 0.5s;
+}
+
+.home button:hover span{
+	width: 100%;
+}
+
+.home button:hover {
+	border: none;
 }
