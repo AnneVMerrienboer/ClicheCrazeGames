@@ -107,7 +107,7 @@ section .home {
 
 /*--buttons--*/
 
-button {
+.home button {
 	width: 300px;
 	padding: 15px 0;
 	text-align: center;
@@ -121,7 +121,7 @@ button {
 	overflow: hidden;
 }
 
-span {
+.home span{
 	background: #F7B2CD;
 	height: 100%;
 	width: 0;
@@ -133,15 +133,15 @@ span {
 	transition: 0.5s;
 }
 
-button:hover span{
+.home button:hover span{
 	width: 100%;
 }
 
-button:hover {
+.home button:hover {
 	border: none;
 }
 
-.fill-screen-text button{
+.home .fill-screen-text button{
 	font-family: bilo, sans-serif;
 	font-weight: 500;
 	font-style: normal;
