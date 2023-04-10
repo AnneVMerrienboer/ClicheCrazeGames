@@ -181,12 +181,13 @@ button:hover {
 
 .small-img-group {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .small-img-col {
 	flex-basis: 24%;
 	cursor: pointer;
+	justify-content: space-around;
 }
 
 #product-details .product-details {
@@ -215,7 +216,7 @@ button:hover {
 	font-style: normal;
 	padding: 40px 0 20px 0;
 	line-height: 25px;
-	width: 500px;
+	width: 600px;
 }
 
 #product-details .product-details input {
