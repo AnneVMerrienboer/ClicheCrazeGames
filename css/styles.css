@@ -32,12 +32,14 @@
 .logo {
 	width: 60px;
 	cursor: pointer;
+	margin-left: 40px;
 }
 
 .navbar ul li {
 	list-style: none;
 	display: inline-block;
-	margin: 0 20px;
+	margin-top: 15px;
+	margin-right: 40px;
 	position:relative;
 }
 
