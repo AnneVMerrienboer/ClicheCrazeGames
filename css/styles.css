@@ -625,3 +625,26 @@ th:last-child {
 	font-weight: 400;
 	font-style: normal;
 }
+
+/*--corporate-management--*/
+
+.corporate-management {
+	margin: 80px 200px;
+}
+
+.corporate-management h2 {
+	color: black;
+	font-size: 50px;
+	text-align: center;
+	font-family: chaloops, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.corporate-management h4 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: jaf-domus-titling-web, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
