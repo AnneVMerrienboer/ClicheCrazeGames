@@ -52,7 +52,7 @@
 	text-transform: uppercase
 }
 	
-.navbar ul li ::after {
+.navbar ul li :after {
 	content: '';
 	height: 3px;
 	width: 0%;
@@ -222,17 +222,6 @@ section .home {
 	margin-left: 100px;
 }
 
-.small-img-group {
-	display: flex;
-	justify-content: space-around;
-}
-
-.small-img-col {
-	flex-basis: 24%;
-	cursor: pointer;
-	justify-content: space-around;
-}
-
 #product-details .product-details {
 	width: 50%;
 	padding-top: 30px;
@@ -242,7 +231,7 @@ section .home {
 	font-family: jaf-domus-titling-web, sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	padding: 40px 0 20px 0;
+	padding: 30px 0 20px 0;
 	font-size: 18px;
 }
 
@@ -257,7 +246,7 @@ section .home {
 	font-family: bilo, sans-serif;
 	font-weight: 500;
 	font-style: normal;
-	padding: 40px 0 20px 0;
+	padding: 10px 0 20px 0;
 	line-height: 25px;
 	width: 600px;
 }
@@ -277,6 +266,30 @@ section .home {
 }
 
 /*--carousel--*/
+
+.general {
+	margin: 80px 200px;
+}
+
+.general h1 {
+	text-align: center;
+	font-family: chaloops, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.general p {
+	text-align: center;
+}
+
+.general a {
+	color: #2DBBAA;
+	text-decoration: none;
+}
+
+.container-fluid-p-0 {
+	margin-top: 0;
+}
 
 .carousel-item h3 {
 	font-family: chaloops, sans-serif;
