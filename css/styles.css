@@ -639,6 +639,11 @@ th:last-child {
 	font-style: normal;
 }
 
+.img-marketing img {
+	align-items: top;
+	margin: 20px;	
+}
+
 /*--corporate-management--*/
 
 .corporate-management {
