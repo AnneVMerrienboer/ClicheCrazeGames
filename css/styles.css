@@ -88,7 +88,7 @@ section .home {
 	position: absolute;
 	z-index: 888;
 	color: #F3EEEA;
-	margin-top: 50px;
+	margin-top: 5px;
 	text-align: left;
 	margin: 0px 200px
 }
